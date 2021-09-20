@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arreglos</title>
+</head>
+<style>
+    .tabla{
+        border: 1px solid rgb(01, 156, 412);
+        border-collapse: collapse;
+        margin: 0 auto;
+        width: 50%;
+    }
+    .tabla tr{
+        border: 1px solid rgb(01, 156, 412);
+    }
+</style>
+<body>
+    <h1>TABLAS</h1>
+    <table class = "tabla">
+        <tr>
+            <td></td>
+            <td>num 1</td>
+            <td>num 2</td>
+            <td>operacion</td>
+            <td>resultado</td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="num1">
+            </td>
+            <td>
+                <select name="" id="operacion">
+                    <option value="1">suma</option>
+                    <option value="2">resta</option>
+                </select>
+            </td>
+            <td>
+                <input type="text" id="num2">
+            </td>
+            <td>
+                <button onclick="calcular()">calcular</button>
+            </td>
+            <td>
+                <input type="text" id="resultado">
+            </td>
+        </tr>
+    </table>
+
+    
+</body>
+<script src="main.js"></script>
+</html>
