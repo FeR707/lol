@@ -1,0 +1,12 @@
+git satus
+git 
+add .
+
+git commit -m "texto"
+
+git push
+
+
+
+
+//// git pull
